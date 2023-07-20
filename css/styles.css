@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    font-size: 16px;
+}
+
+.form-content{
+    width: 60vw;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+form, .card {
+    width: 60vw;
+    background-color: rgb(234, 234, 234);
+    width: 60vw;
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    padding: 1rem 1.5rem 1rem 1rem;
+}
+
+input {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+.card{
+    text-align: center;
+}
+
+.hasil{
+    width: 60vw;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.button, .konsultasi-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin: 1rem 0 0 0;
+
+}
+
+.btn-reset {
+    border-radius: 2px;
+    border: 0.2px solid rgb(191, 191, 191);
+}
+
+.btn {
+    margin: 0 0.5rem;
+    height: 2rem;
+    width: 20%;
+}
+
+.btn-konsultasi, .btn-registrasi, .btn-hasil {
+    background-color: #5bc0de;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    border: none;
+}
+
+.card p:nth-child(2) {
+    font-size: 2.5rem;
+}
